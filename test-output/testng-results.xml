@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-31T09:39:34 IST" name="OrangeHRM TestSuite" finished-at="2025-03-31T09:40:12 IST" duration-ms="37465">
+    <groups>
+    </groups>
+    <test started-at="2025-03-31T09:39:34 IST" name="LoginModule" finished-at="2025-03-31T09:39:43 IST" duration-ms="8638">
+      <class name="TestCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@158da8e]" started-at="2025-03-31T09:39:34 IST" name="setup" finished-at="2025-03-31T09:39:39 IST" duration-ms="5104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Valid_login()[pri:1, instance:TestCases.LoginTest@158da8e]" started-at="2025-03-31T09:39:39 IST" name="Valid_login" finished-at="2025-03-31T09:39:43 IST" duration-ms="3395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.LoginTest@158da8e]" started-at="2025-03-31T09:39:43 IST" name="tearDown" finished-at="2025-03-31T09:39:43 IST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Valid_login status=SUCCESS method=LoginTest.Valid_login()[pri:1, instance:TestCases.LoginTest@158da8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- LoginModule -->
+    <test started-at="2025-03-31T09:39:43 IST" name="ForgotPasswordModule" finished-at="2025-03-31T09:40:12 IST" duration-ms="28807">
+      <class name="TestCases.ForgotPasswordTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:39:34 IST" name="setupExtent" finished-at="2025-03-31T09:39:34 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:39:43 IST" name="setup" finished-at="2025-03-31T09:39:47 IST" duration-ms="4722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ForgotPw_click()[pri:1, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:39:47 IST" name="ForgotPw_click" finished-at="2025-03-31T09:39:49 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPw_click -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:39:49 IST" name="tearDown" finished-at="2025-03-31T09:39:49 IST" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPw_click status=SUCCESS method=ForgotPasswordTest.ForgotPw_click()[pri:1, instance:TestCases.ForgotPasswordTest@7f3b84b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:39:49 IST" name="setup" finished-at="2025-03-31T09:39:54 IST" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ForgotPw_valid()[pri:2, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:39:54 IST" name="ForgotPw_valid" finished-at="2025-03-31T09:40:00 IST" duration-ms="6623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPw_valid -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:40:00 IST" name="tearDown" finished-at="2025-03-31T09:40:00 IST" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPw_valid status=SUCCESS method=ForgotPasswordTest.ForgotPw_valid()[pri:2, instance:TestCases.ForgotPasswordTest@7f3b84b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:40:00 IST" name="setup" finished-at="2025-03-31T09:40:05 IST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ForgotPw_Invalid()[pri:3, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:40:05 IST" name="ForgotPw_Invalid" finished-at="2025-03-31T09:40:11 IST" duration-ms="6628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPw_Invalid -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:40:11 IST" name="tearDown" finished-at="2025-03-31T09:40:12 IST" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPw_Invalid status=SUCCESS method=ForgotPasswordTest.ForgotPw_Invalid()[pri:3, instance:TestCases.ForgotPasswordTest@7f3b84b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:TestCases.ForgotPasswordTest@7f3b84b8]" started-at="2025-03-31T09:40:12 IST" name="tearDownExtent" finished-at="2025-03-31T09:40:12 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- TestCases.ForgotPasswordTest -->
+    </test> <!-- ForgotPasswordModule -->
+  </suite> <!-- OrangeHRM TestSuite -->
+</testng-results>
