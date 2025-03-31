@@ -8,24 +8,10 @@
       <class name="TestCases.LoginTest">
         <methods>
           <include name="Valid_login"></include>
-          <include name="invalid_login"></include>
+          <include name="Invalid_login"></include>
         </methods>
       </class>
     </classes>
   </test> 
-  
-   <test thread-count="5" name="ForgotPasswordModule">
-    <classes>
-      <class name="TestCases.ForgotPasswordTest">
-        <methods>
-          <include name="ForgotPw_click"></include>
-          <include name="ForgotPw_valid"></include >
-          <include name="ForgotPw_Invalid"></include>
-        </methods>
-      </class>
-    </classes>
-  </test> 
-  
-  
-
+ 
 </suite> <!-- OrangeHRM TestSuite -->

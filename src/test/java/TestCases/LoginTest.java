@@ -1,21 +1,23 @@
 package TestCases;
 
 import Pages.LoginPage;
+import Utilities.ReadExcelData;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
-
-    @Test(priority = 1)
-    public void Valid_login() throws InterruptedException {
+	
+    @Test(priority = 1, dataProvider = "Valid_Login", dataProviderClass = ReadExcelData.class)
+    public void Valid_login(String Username, String Password) throws InterruptedException {
         test = extent.createTest("Valid Login Test");
         LoginPage login = new LoginPage(driver);
 
         test.info("Entering valid username");
-        login.enterUserName("Admin");
+        login.enterUserName(Username);
 
         test.info("Entering valid password");
-        login.enterpassword("admin123");
+        login.enterpassword(Password);
 
         test.info("Clicking Login");
         login.LoginClick();
@@ -26,16 +28,16 @@ public class LoginTest extends BaseTest {
         test.pass("Valid login test passed");
     }
 
-    @Test(priority = 2)
-    public void Invalid_login() throws InterruptedException {
+    @Test(priority = 2, dataProvider = "Invalid_Login", dataProviderClass = ReadExcelData.class)
+    public void Invalid_login(String Username, String Password) throws InterruptedException {
         test = extent.createTest("Invalid Login Test");
         LoginPage login = new LoginPage(driver);
 
         test.info("Entering valid username");
-        login.enterUserName("Admin");
+        login.enterUserName(Username);
 
         test.info("Entering invalid password");
-        login.enterpassword("admin1234");
+        login.enterpassword(Password);
 
         test.info("Clicking Login");
         login.LoginClick();
